@@ -179,3 +179,4 @@ async def feedback(req: FeedbackRequest):
 #     except Exception as e:
 #         logger.error(f"Debug plot failed: {str(e)}")
 #         raise HTTPException(status_code=500, detail=str(e))
+
